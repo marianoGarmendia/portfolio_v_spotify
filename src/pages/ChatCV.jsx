@@ -42,15 +42,18 @@ function ChatCV() {
 
     if (messages[messages.length - 1].author === "user") {
       const fetchConversation = async () => {
-        const response = await fetch("http://127.0.0.1:8000/chatbot", {
-          headers: {
-            contentType: "application/json",
-          },
-          method: "POST",
-          body: JSON.stringify({
-            pregunta: messages[messages.length - 1].content,
-          }),
-        });
+        const response = await fetch(
+          "https://portfolio-backend-chat.onrender.com/chatbot",
+          {
+            headers: {
+              contentType: "application/json",
+            },
+            method: "POST",
+            body: JSON.stringify({
+              pregunta: messages[messages.length - 1].content,
+            }),
+          }
+        );
 
         if (response.status === 200) {
           const responseChatBot = await response.json();
