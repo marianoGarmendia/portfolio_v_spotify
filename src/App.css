@@ -1,0 +1,95 @@
+:root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  color: #eee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  /* background: transparent; */
+  /* display: none; */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9ca4a690;
+}
+
+/* nunito-sans-latin-wght-normal */
+@font-face {
+  font-family: "Nunito Sans Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 1000;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/nunito-sans:vf@latest/latin-wght-normal.woff2)
+    format("woff2-variations");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* rubik-latin-wght-normal */
+@font-face {
+  font-family: "Rubik Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300 900;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/rubik:vf@latest/latin-wght-normal.woff2)
+    format("woff2-variations");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #000000;
+}
+
+.project-card {
+  background: linear-gradient(
+    0deg,
+    #122327 0%,
+    rgba(31, 58, 64, 1) 65%,
+    #24424a 94%
+  );
+}
+
+.section_gradient_base {
+  background: linear-gradient(0deg, #121415 10%, rgba(17, 32, 35, 1) 70%);
+}
+
+.grid_main {
+  display: grid;
+  grid-template-columns: 314px 1fr;
+}
+
+.grid_projects {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 10px 4fr 2fr 2fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.text_about_me > p {
+  font-size: 12px;
+}
+
+.chat_cv_form {
+  background-image: url("./assets/bg-chat-cv.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.messages_container {
+  scroll-behavior: smooth;
+}
+
+.messages_container::-webkit-scrollbar {
+  width: 2px;
+}
