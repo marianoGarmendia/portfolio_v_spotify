@@ -32,7 +32,7 @@ function ProjectCard({
           <img
             src={img_project}
             alt="img-project"
-            className="object-cover h-full w-full"
+            className="object-cover min-h-[240px] min-w-[242px] w-full h-full"
           />
         </div>
         <div className="w-full h-[230px] tracking-wide font-nunito opacity-95 flex flex-col justify-end pb-8 gap-2 ">
