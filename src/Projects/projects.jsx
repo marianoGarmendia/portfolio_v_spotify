@@ -1,5 +1,5 @@
 import ProjectCard from "../components/ProjectCard";
-import trainingFyAudio from "../Music/TrainingFy.wav";
+import trainingFyAudio from "../Music/trainingFy.wav";
 import componentAudio from "../Music/components.wav";
 import oneclickAudio from "../Music/oneclick.wav";
 import memoryAudio from "../Music/memory_poke_audio.wav";
