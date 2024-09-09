@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import Message from "../components/Message";
 import Header from "../components/Header";
+import DownloadButton from "../components/DownloadBtn";
 import img_profile from "../assets/img_mariano_profile.png";
 import { twMerge } from "tailwind-merge";
 
@@ -112,11 +113,7 @@ function ChatCV() {
               ¿Tenés experiencia en trabajo en equipo?
             </button>
           </div>
-          <div>
-            <button className="rounded-full bg-white px-4 py-2 text-sm font-bold text-[#1f1f1f] w-fit hover:scale-105 transition-all duration-200 ease-in-out">
-              Descargar CV
-            </button>
-          </div>
+          <DownloadButton />
         </div>
         <form
           className="chat_cv_form flex flex-col max-h-full border rounded-md  border-border_gray border-opacity-55 w-full  "
