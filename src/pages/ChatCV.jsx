@@ -15,6 +15,7 @@ function ChatCV() {
   ]);
   const [isWriting, setIsWriting] = useState("invisible");
   const [inputValue, setInputValue] = useState("");
+  const [isDisable, setIsDisable] = useState(false);
   //   const [messagesBot, setMessagesBot] = useState([]);
 
   const msgRef = useRef(null);
@@ -22,6 +23,8 @@ function ChatCV() {
 
   const addMessages = (e) => {
     e.preventDefault();
+    setIsDisable(true);
+    // Anular el submit hasta que llegue la respuesta del bot
     const newMessageAdded = inputValue;
     msgRef.current = newMessageAdded;
     const newMessage = {
@@ -66,6 +69,7 @@ function ChatCV() {
 
           setMessages([...messages, newMessageBot]);
           setIsWriting("invisible");
+          setIsDisable(false);
         }
       };
       fetchConversation();
@@ -157,7 +161,13 @@ function ChatCV() {
               onChange={handleChange}
               value={inputValue}
             />
-            <button className="w-fit p-2  text-[#eee] project-card text-center rounded-sm">
+            <button
+              disabled={isDisable}
+              className={twMerge(
+                "w-fit p-2 text-[#eee] project-card text-center rounded-sm",
+                isDisable ? "bg-[#777272]" : "bg-[#121415]"
+              )}
+            >
               Enviar
             </button>
           </div>
