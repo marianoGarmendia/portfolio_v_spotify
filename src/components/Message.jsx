@@ -3,8 +3,6 @@ import { twMerge } from "tailwind-merge";
 import img_profile from "../assets/img_mariano_profile.png";
 
 function Message({ index, message = "Random message", author }) {
-  console.log(message);
-
   const className = {
     bot: "self-end flex-row-reverse bg-[#122327]",
     user: "self-start bg-[#24424a]",
