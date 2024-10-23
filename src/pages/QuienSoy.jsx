@@ -9,29 +9,30 @@ function QuienSoy() {
           Hola! Te cuento un poco quien soy...
         </h3>
         <p className="mt-10">
-          Durante años trabajé en equipos, desempeñando tareas como coordinador
-          de actividades, selección de personal y muchas desafíos más
-          relacionados con llevar adelante un proyecto en el mundo fitness.
+          Soy Desarrollador Fullstack con mayor orientación hacia el frontend.
+          Busco construir experiencias digitales innovadoras utilizando React JS
+          , Node js, Tailwind, con conocimientos en Firestore como servicio de
+          base de datos y Python la cual últimamente complemento incorporando IA
+          a través de librerías como Langchain y langgraph que permite la
+          creación de agentes IA con un profundo control pudiendo orquestar
+          desde el servidor un flujo de trabajo y herramientas
         </p>
         <p>
-          Hace 4 años logré conformar mi propio emprendimiento con mas de 10
-          personas a cargo. Aprendí a gestionar, delegar, cumplir objetivos y
-          tener reuniones importantes dentro del equipo.
+          Todos mis proyectos tiene una base sólida en fundamentos, teniendo en
+          cuenta la escalabilidad, las buenas practicas como comentar mi código,
+          tipar los datos, validar, manejar errores desde el back y el front
+          para mantener la experiencia de usuario lo mas limpia posible.
         </p>
         <p>
-          Paralelamente a mi trabajo estudié programación y hace al menos 2 años
-          que mi foco está 100% puesto en mi carrera como desarrollador.
+          Memantengo activo e interesado por la capacitacion constante, leer
+          documentacion, código de proyectos open source, clonar repositorios de
+          trabajos bien realizados y estudiar su estructura, son practicas que
+          utilizo para fortalecer mis habilidades.
         </p>
         <p>
-          Con varios cursos realizados y distintos proyectos, pude establecer
-          unas bases de conocimiento que hoy me dan las herramientas para crear
-          experiencias innovadoras en el desarrollo web, en conjunto con nuevas
-          tecnologías relacionadas a la Inteligencia Artificial lo cual es algo
-          que veo inspirador.
-        </p>
-        <p>
-          Estoy con muchas ganas de formar parte de un equipo donde explotar mi
-          potencial y aportar mi experiencia.
+          Creo mucho en el trabajo en equipo y el compromiso, tengo mucho
+          experiencia en ello, lo cual me llevo a construir hoy en dia un
+          emprendimiento persona con un equipo de mas de 10 personas
         </p>
       </div>
     </section>
