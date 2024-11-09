@@ -4,8 +4,6 @@ BtnEnlace.propTypes = {
 };
 
 function BtnEnlace({ url_deploy }) {
-  console.log(url_deploy);
-
   return (
     <a
       href={url_deploy}

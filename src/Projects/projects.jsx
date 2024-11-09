@@ -13,8 +13,29 @@ import src_logo_trainingfy from "../assets/entrenador.png";
 import src_logo_oneclick from "../assets/img_oneclick_logo.png";
 import src_logo_component from "../assets/img_component_logo.png";
 import src_logo_memorypoke from "../assets/img_memorypoke_logo.png";
+import LangchainLogo from "../image_tech/langchain_logo.jpg";
+import img_agent from "../image_project/card_component_agent.png";
 
 export const allProjects = [
+  {
+    component: (
+      <ProjectCard
+        text="Agente de IA - GenAI app de reserva de turnos"
+        audio={""}
+        img_project={img_agent}
+        src_logo={LangchainLogo}
+        logos_tech={["react", "tailwind", "node", "firestore", "langchain"]}
+      >
+        <div className="flex gap-2">
+          <span className="text-sm font-semibold">Agente de IA</span>
+          <span className="text-sm opacity-50">
+            Conversa con un Agente de reserva de turnos
+          </span>
+        </div>
+      </ProjectCard>
+    ),
+    label: "Agente",
+  },
   {
     component: (
       <ProjectCard

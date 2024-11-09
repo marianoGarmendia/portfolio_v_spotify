@@ -5,6 +5,7 @@ import TailwindLogo from "../components/TailwindLogo";
 import ChromeLogo from "../components/ChromeLogo";
 import VercelLogo from "../components/VercelLogo";
 import JavascriptLogo from "../components/JavascriptLogo";
+import LangchainLogo from "../components/LangchainLogo";
 
 const logosTech = {
   react: <ReactLogo />,
@@ -14,6 +15,7 @@ const logosTech = {
   chrome: <ChromeLogo />,
   javascript: <JavascriptLogo />,
   vercel: <VercelLogo />,
+  langchain: <LangchainLogo />,
 };
 
 // eslint-disable-next-line react/prop-types

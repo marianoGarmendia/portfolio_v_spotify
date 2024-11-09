@@ -8,6 +8,7 @@ import img_mini_component from "../image_project/mini_component.png";
 import img_mini_trainingfy from "../image_project/mini_trainingfy.png";
 import img_mini_oneclick from "../image_project/mini-oneclick.png";
 import img_mini_memory from "../image_project/mini_memorypoke.png";
+import img_mini_agent from "../image_project/mini_agent.png";
 
 function ProjectsPage() {
   const [selectedTab, setSelectedTab] = useState(allProjects[0]);
@@ -41,6 +42,22 @@ function ProjectsPage() {
         <div>Tecnologies</div>
         <div>Deploy</div>
       </div>
+      <LabelProject
+        img_mini={img_mini_agent}
+        component="Agente"
+        handleChange={handleChange}
+        logos_tech={["react", "tailwind", "firestore", "langchain"]}
+        github_link={"https://github.com/marianoGarmendia/Client_Agent_reserve"}
+        url_deploy={"https://client-agent-reserve.onrender.com/#/"}
+      >
+        <div>
+          <p className="text-lg text-[#eee]">Agente de IA</p>
+          <p>
+            LLM app de reserva de turnos conversacional - Guarda en base de
+            datos
+          </p>
+        </div>
+      </LabelProject>
 
       <LabelProject
         img_mini={img_mini_component}
