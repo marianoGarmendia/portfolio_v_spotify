@@ -1,4 +1,4 @@
-import Cv_file from "../assets/CV_MARIANO_FEB_25.docx";
+import Cv_file from "../assets/cv_mg_actualizado_25.pdf";
 
 const DownloadButton = () => {
   return (
